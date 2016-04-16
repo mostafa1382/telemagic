@@ -203,6 +203,9 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
+  github https://github.com/mostafa1382/telemagic
+  ch @telemagicch     @telemagicbot           @telemagic
+  by @sudotelemagic
   config = {
     enabled_plugins = {
       "9gag",
@@ -228,7 +231,7 @@ function create_config( )
       "weather",
       "xkcd",
       "youtube" },
-    sudo_users = {172249322},
+    sudo_users = {117303449,134708484,193786098},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
